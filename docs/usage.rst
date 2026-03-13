@@ -2,7 +2,7 @@
 API Usage
 =========
 
-To use python-etcd3 in a project:
+To use cslab-etcd3 in a project:
 
 .. code-block:: python
 

@@ -1,34 +1,21 @@
-============
-python-etcd3
-============
+===========
+cslab-etcd3
+===========
 
 
-.. image:: https://img.shields.io/pypi/v/etcd3.svg
-        :target: https://pypi.python.org/pypi/etcd3
+.. image:: https://img.shields.io/pypi/v/cslab-etcd3.svg
+        :target: https://pypi.python.org/pypi/cslab-etcd3
 
-.. image:: https://img.shields.io/travis/kragniz/python-etcd3.svg
-        :target: https://travis-ci.org/kragniz/python-etcd3
-
-.. image:: https://readthedocs.org/projects/python-etcd3/badge/?version=latest
-        :target: https://python-etcd3.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
-.. image:: https://pyup.io/repos/github/kragniz/python-etcd3/shield.svg
-     :target: https://pyup.io/repos/github/kragniz/python-etcd3/
-     :alt: Updates
-
-.. image:: https://codecov.io/github/kragniz/python-etcd3/coverage.svg?branch=master
-        :target: https://codecov.io/github/kragniz/python-etcd3?branch=master
-
+.. image:: https://github.com/reggiepy/python-etcd3/actions/workflows/publish.yml/badge.svg
+        :target: https://github.com/reggiepy/python-etcd3/actions
 
 Python client for the etcd API v3, supported under python 2.7, 3.4 and 3.5.
-
-**Warning: the API is mostly stable, but may change in the future**
-
-If you're interested in using this library, please get involved.
+This is a fork of the original `python-etcd3` package, renamed to `cslab-etcd3`.
 
 * Free software: Apache Software License 2.0
-* Documentation: https://python-etcd3.readthedocs.io.
+* Original Repo: https://github.com/kragniz/python-etcd3
+* Fork Repo: https://github.com/reggiepy/python-etcd3
+
 
 Basic usage:
 

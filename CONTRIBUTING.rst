@@ -15,7 +15,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/kragniz/python-etcd3/issues.
+Report bugs at https://github.com/reggiepy/python-etcd3/issues.
 
 If you are reporting a bug, please include:
 
@@ -38,8 +38,8 @@ and "help wanted" is open to whoever wants to implement it.
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
-python-etcd3 could always use more documentation, whether as part of the
-official python-etcd3 docs, in docstrings, or even on the web in blog posts,
+cslab-etcd3 could always use more documentation, whether as part of the
+official cslab-etcd3 docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 Submit Feedback
@@ -57,17 +57,17 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `python-etcd3` for local development.
+Ready to contribute? Here's how to set up `cslab-etcd3` for local development.
 
-1. Fork the `python-etcd3` repo on GitHub.
+1. Fork the `python-etcd3` repo on GitHub (https://github.com/reggiepy/python-etcd3).
 2. Clone your fork locally::
 
     $ git clone git@github.com:your_name_here/python-etcd3.git
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
 
-    $ mkvirtualenv etcd3
-    $ cd etcd3/
+    $ mkvirtualenv cslab-etcd3
+    $ cd python-etcd3/
     $ python setup.py develop
 
 4. Create a branch for local development::

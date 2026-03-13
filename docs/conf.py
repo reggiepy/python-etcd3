@@ -70,7 +70,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'python-etcd3'
+project = u'cslab-etcd3'
 copyright = u"2016, Louis Taylor"
 
 # The version info for the project you're documenting, acts as replacement

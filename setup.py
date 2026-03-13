@@ -24,13 +24,13 @@ requirements = load_reqs('requirements/base.txt')
 test_requirements = load_reqs('requirements/test.txt')
 
 setup(
-    name='etcd3',
-    version='0.12.0',
-    description="Python client for the etcd3 API",
+    name='cslab-etcd3',
+    version='0.12.1',
+    description="Python client for the etcd3 API (cslab fork)",
     long_description=readme + '\n\n' + history,
     author="Louis Taylor",
     author_email='louis@kragniz.eu',
-    url='https://github.com/kragniz/python-etcd3',
+    url='https://github.com/reggiepy/python-etcd3',
     packages=[
         'etcd3',
         'etcd3.etcdrpc',

@@ -11,8 +11,8 @@ ENV PATH $PATH:/etcd-${TEST_ETCD_VERSION}-linux-amd64
 
 RUN pip install -U tox
 
-RUN mkdir python-etcd3
-WORKDIR python-etcd3
+RUN mkdir cslab-etcd3
+WORKDIR cslab-etcd3
 # Rebuild this layer .tox when tox.ini or requirements changes
 COPY tox.ini ./
 COPY requirements/base.txt requirements/test.txt ./requirements/

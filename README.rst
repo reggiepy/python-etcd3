@@ -9,6 +9,14 @@ cslab-etcd3
 .. image:: https://github.com/reggiepy/python-etcd3/actions/workflows/publish.yml/badge.svg
         :target: https://github.com/reggiepy/python-etcd3/actions
 
+.. image:: https://readthedocs.org/projects/cslab-etcd3/badge/?version=latest
+        :target: https://cslab-etcd3.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+.. image:: https://codecov.io/github/reggiepy/python-etcd3/coverage.svg?branch=master
+        :target: https://codecov.io/github/reggiepy/python-etcd3?branch=master
+
+
 Python client for the etcd API v3, supported under python 2.7, 3.4 and 3.5.
 This is a fork of the original `python-etcd3` package, renamed to `cslab-etcd3`.
 
